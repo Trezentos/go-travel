@@ -1,0 +1,24 @@
+#page-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color:white;
+    height: 15vh;
+    border-bottom: 1px solid black;
+}
+
+#page-header::after{
+    width: 100%;
+    height: 15vh;   
+    content: "";
+    position: absolute;
+    background-color: black;
+    left: 0;
+    top:0;
+    z-index: -1;
+    opacity: .2;
+}
+
+#description{
+    margin-left: 10px;
+}
