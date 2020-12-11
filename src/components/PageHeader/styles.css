@@ -1,10 +1,17 @@
 #page-header{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     color:white;
     height: 15vh;
-    border-bottom: 1px solid black;
+
+    flex-direction: column;
+    border-bottom: 1px solid rgb(41, 41, 41);
+    
+}
+
+#page-header .content{
+    text-align: center;
 }
 
 #page-header::after{
@@ -17,8 +24,20 @@
     top:0;
     z-index: -1;
     opacity: .2;
+    
 }
 
-#description{
-    margin-left: 10px;
+
+#page-header .content a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+#page-header .content a:hover{
+    color:rgb(177, 177, 177);
+}
+
+#page-header #description{
+    text-align: center;
 }

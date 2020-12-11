@@ -1,0 +1,1 @@
+To run this project just open the terminal the root of the project and type npm/yarn install and npm/yarn start

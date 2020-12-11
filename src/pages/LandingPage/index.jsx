@@ -10,7 +10,7 @@ function LandingPage() {
           <h1>Bem </h1>
           <h1>Vindo</h1>
           <h1>Ao</h1>
-          <h1>App</h1>
+          <h1>GoTravel</h1>
         </div>
         <div className="buttons-container">
           <Link to="/register"><button type="button">Registrar Viagem</button></Link>
